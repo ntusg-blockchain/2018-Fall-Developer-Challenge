@@ -6,10 +6,10 @@ A blockchain in the simplest of terms is literally a chain of blocks.
 ![BLockchain](img/simple_block_chain.png "Blockchain")
 _Source: [Imaginea] https://blog.imaginea.com/from-bitcoin-to-blockchain-to-ethereum-part-2/
 
-Above you can see what a linked list looks like. The structure of a blockchain is extremely similar. Instead of having a pointer pointing to the memory of the next item in the list each block contains a hash of all the data contained within the previous node. Each block contains its own relevant data as well.
+Above you can see the structure of a blockchain. Each block contains a hash of all the data contained within the previous node and its own relevant data as well.
 
 ## The Problem
-You have come up with a new 'Simple_Coin' which you want to implement using blockchain technology. Unfortunately for the users (and fortunately for you) you have adopted a framework which all of the mining power is centralised.
+You have come up with a new 'has_' which you want to implement using blockchain technology. Unfortunately for the users (and fortunately for you) you have adopted a framework which all of the mining power is centralised.
 
 To ensure that the mining method is fully working and deterministic you want to make sure that even if simple_coin is implemented again the hashes of the blocks are similar given that the input data does not change. You decide that the blocks should be empty to make your job easier as well.
 
