@@ -1,23 +1,37 @@
 # Blockchain
 
 ## Introduction
-A blockchain in the simplest of terms is literally a chain of blocks. 
+
+A blockchain in the simplest of terms is literally a chain of blocks.
 
 ![BLockchain](img/simple_block_chain.png "Blockchain")
-_Source: [Imaginea] https://blog.imaginea.com/from-bitcoin-to-blockchain-to-ethereum-part-2/
+_Source_: [Imaginea](https://blog.imaginea.com/from-bitcoin-to-blockchain-to-ethereum-part-2/)
 
 Above you can see the structure of a blockchain. Each block contains a hash of all the data contained within the previous node and its own relevant data as well.
 
+If you are not familiar with hash pointer, please watch this [short video](https://www.coursera.org/lecture/cryptocurrency/hash-pointers-and-data-structures-EYEAo).
+
 ## The Problem
+
 You have come up with a new 'has_' which you want to implement using blockchain technology. Unfortunately for the users (and fortunately for you) you have adopted a framework which all of the mining power is centralised.
 
 To ensure that the mining method is fully working and deterministic you want to make sure that even if simple_coin is implemented again the hashes of the blocks are similar given that the input data does not change. You decide that the blocks should be empty to make your job easier as well.
 
-Your goal is to implement the method in 'simple_coin.py' to verify your assumption. 
+Your goal is to implement the method in 'simple_coin.py' to verify your assumption.
 
 NOTE: Empty blocks mean that you do not pass in any data to the block classes
 
-### Project Layout
+## Installation
+
+First clone this repository to your local machine using (assuming SSH key already added to your GitHub account, if not, please follow [this post](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) to generate a new SSH key.):
+
+```shell
+git clone git@github.com:ntusg-blockchain/2018-Fall-Developer-Challenge.git
+```
+
+Make sure `python3` is properly installed on your machine, if not, please follow [this post](https://realpython.com/installing-python/) to set up.
+
+## Project Layout
 
 You need only to make changes to `simple_coin.py`, please make sure to familiarize yourselves with the layout of the entire directory however. The roles of the other files are as follows:
 
