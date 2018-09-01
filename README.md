@@ -13,11 +13,11 @@ If you are not familiar with hash pointer, please watch this [short video](https
 
 ## The Problem
 
-You have come up with a new 'has_' which you want to implement using blockchain technology. Unfortunately for the users (and fortunately for you) you have adopted a framework which all of the mining power is centralised.
+You have heard all the hype about blockchain technology and wanted to implement one on your own. To start with, you knew that blockchain uses a data structure called "Hash Pointer" and decided to get a minimal viable "chain" going.
 
-To ensure that the mining method is fully working and deterministic you want to make sure that even if simple_coin is implemented again the hashes of the blocks are similar given that the input data does not change. You decide that the blocks should be empty to make your job easier as well.
+For simplicity, you only include one coin in the [genesis block](https://en.bitcoin.it/wiki/Genesis_block) while leaving **all following block empty**.
 
-Your goal is to implement the method in 'simple_coin.py' to verify your assumption.
+Your goal is to implement the method in 'simple_coin.py' to verify your "chain" is properly setup by verifying the hash of the most recent block.
 
 NOTE: Empty blocks mean that you do not pass in any data to the block classes
 
