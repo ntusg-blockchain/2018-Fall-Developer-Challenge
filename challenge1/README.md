@@ -1,4 +1,4 @@
-# Challenge 1: Send Me Some (Worthless) Ether
+# Challenge 1: Send Me Some Ether
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Here're some recommended tools you might need:
 
 ## Challenge
 
-Send **0.5 ether** to account address: `0xcc6b9a2ef844002c413d992b980eeb7b08899a10` and **copy the transaction hash** down for submission. 
+Send **0.5 ether** to account address: `0xcc6b9a2ef844002c413d992b980eeb7b08899a10` on **Kovan Testnet** and **copy the transaction hash** down for submission. 
 
 NOTE 1: Please do notice the actual fee being paid( is it exactly 0.5 ether, why? ). 
 
@@ -26,5 +26,5 @@ NOTE 3: a deeper dive into Ethereum Transaction Hash: [blog post](https://medium
 
 ## Submission
 
-Please specify your `transactionHash` to an email (together with other challenges solution, if any) and send to [blockchain.ntusg@gmail.com](mailto:blockchain.ntusg@gmail.com). Please also fill in the email topic with "2018 Recruitment Challenge -- Blockchain@NTU".
+Please paste your `transactionHash` into the Google Form (Section 3/4) we sent to your email.
 

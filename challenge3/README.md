@@ -49,4 +49,4 @@ Writing your own tests is not required but highly recommended. All that matters 
 
 ## Submission
 
-Please attach your `simple_coin.py` file to an email (together with other challenges solution, if any) and send to [blockchain.ntusg@gmail.com](mailto:blockchain.ntusg@gmail.com). Please also fill in the email topic with "2018 Recruitment Challenge -- Blockchain@NTU".
+Please upload your `simple_coin.py` file to the Google Form (Section 3/4) we sent to your email.
