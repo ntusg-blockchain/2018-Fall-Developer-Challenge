@@ -1,4 +1,4 @@
-# Challenge 3: Minimal Barebone Blockchain
+# Challenge 3: Simplest Blockchain Ever
 
 ## Introduction
 
