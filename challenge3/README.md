@@ -1,4 +1,4 @@
-# Blockchain
+# Challenge 3: Minimal Barebone Blockchain
 
 ## Introduction
 
@@ -46,3 +46,7 @@ You need only to make changes to `simple_coin.py`, please make sure to familiari
 Use `python3 test.py` to run all the tests. You may add your own tests and run them with `python [filename].py`. Make sure to format tests according to the `unittest` module (take a look at the other files to see examples).
 
 Writing your own tests is not required but highly recommended. All that matters is you pass our internal test cases.
+
+## Submission
+
+Please attach your `simple_coin.py` file to an email (together with other challenges solution, if any) and send to [blockchain.ntusg@gmail.com](mailto:blockchain.ntusg@gmail.com). Please also fill in the email topic with "2018 Recruitment Challenge -- Blockchain@NTU".
