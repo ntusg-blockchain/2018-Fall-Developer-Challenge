@@ -1,4 +1,4 @@
-from Crypto.Hash import SHA256 as hashFunction
+import hashlib
 import datetime as date
 
 
@@ -14,7 +14,7 @@ class Block:
         return "block height:%s; transactions contained: %s; value: %s; parent hash: %s; current block hash: %s.\n" % (self.height, self.transaction, self.value, self.parent_hash, self.hash)
 
     def hash_self(self):
-        hash = hashFunction.new()
+        hash = hashlib.sha256()
         hash.update((str(self.height) + 
                     str(self.value) +
                     str(self.transaction) + 
